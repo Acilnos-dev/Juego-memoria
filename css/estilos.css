@@ -38,3 +38,30 @@ button{
 button:hover{
     background-color: var(--acento2);
 }
+
+#tablero{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:12px;
+    max-width: 400px;
+    margin: 24px auto;
+}
+
+.carta{
+    aspect-ratio: 1; 
+    font-size: 28px;
+    padding: 0;
+    background-color: var(--acento2);
+    border: 4px solid var(--texto);
+    border-radius: 0;
+    box-shadow: 4px 4px 0 var(--acento);
+}
+
+.carta:hover{
+    background-color: var(--acento)
+}
+
+.carta:active{
+    transform: translate(4px, 4px);
+    box-shadow: none;
+}
