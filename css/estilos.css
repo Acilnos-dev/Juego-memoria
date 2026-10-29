@@ -1,0 +1,40 @@
+:root{
+    --fondo: #1a1c2c;
+    --texto: #f4f4f4;
+    --acento: #ffcd75;
+    --acento2: #41a6f6;
+}
+
+body{
+    font-family: "Press start 2P", monospace;
+    background-color: var(--fondo);
+    color: var(--texto);
+    line-height: 1.8;
+}
+
+h1{
+    text-align: center;
+    color: var(--acento);
+    font-size: 24px;
+    text-shadow: 4px 4px 0 var(--acento2);
+}
+
+main{
+    text-align: center;
+    font-size: 12px;
+}
+
+button{
+    font-family: inherit;
+    font-size: 12px;
+    color: var(--fondo);
+    background-color: var(--acento);
+    border: none;
+    padding: 12px 20px;
+    box-shadow: 4px 4px 0 var(--acento2);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--acento2);
+}
